@@ -1,0 +1,315 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  position: relative;
+  width: 36px;
+  font-size: 24px;
+}
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  font-family: sans-serif;
+}
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  top: 3px;
+  line-height: 12px;
+}
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  top: -10px;
+}
+@media (min-width: 576px) {
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+.body{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+   }
+
+  .principal {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://i.imgur.com/mQVD9UI.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    animation-name: anima1;
+    animation-duration: 2.5s;
+    animation-delay: -0.5s;
+    animation-timing-function: ease-in-out;
+   }
+   .logoContainer {
+    width: 100%;
+    animation-name: anima3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+   }
+   .logo {
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+    animation-name: anima2;
+    animation-duration: 5s;
+    animation-delay: -3s;
+   }
+   .logo:hover {
+    opacity: 0.75;
+   }
+   @keyframes anima1 {
+    0% {
+    width: 1vw;
+    height: 1vh;
+    }
+    25% {
+    width: 1vw;
+    height: 1vh;
+    }
+    95% {
+    width: 110vw;
+    height: 110vh;
+    }
+    100% {
+    width: 100vw;
+    height: 100vh;
+    }
+   }
+   @keyframes anima2 {
+    0% {
+    opacity: 0;
+    }
+    80% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+   }
+   @keyframes anima3 {
+    0% {
+    padding-top: 0vh;
+    }
+    50% {
+    padding-top: 1vh;
+    }
+    100% {
+    padding-top: 0vh;
+    }
+   }   
+
+.cor{
+    background-color: black;
+}
+.fundo{
+    background-color: black;
+}
+.inove{
+    color: rgb(0, 170, 147);
+    font-size: 190%;
+  }
+  .alves{
+    color: rgb(35, 35, 61);
+    font-size: 190%;
+  }
+  .alves1{
+   justify-items: center;
+    
+  }
+  .gratia{
+    color: rgb(8, 136, 255);
+    font-size: 190%;
+  }
+.tabela{
+   
+    margin: auto;
+}
+h2{
+    font-size: 230%;
+
+  }
+.card1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagem{
+  border-radius: 13%;
+}
+
+.imagem2{
+  width: 100%;
+
+}
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card {
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.container .card img {
+    transition: 0.5s;
+}
+
+.container .card h1 {
+    font-size: 2rem;
+}
+
+.container .card .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.container .card .content p {
+    color: #666;
+    transition: 0.5s;
+}
+
+.container .card .content a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+}
+
+
+.alvss:hover {
+  background-color: #202333;
+  color: white;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #14142b5d;
+  border-color: #231f35;
+}
+.inovee:hover {
+  background-color: #2bbb8b;
+  color: white;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #21857c5d;
+  border-color: #2c706b;
+}
+.gratiaa:hover{
+  background-color: #0499fc;
+  color: white;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #0067bb5d;
+  border-color: #007dd1;
+}
+.container .card:hover .content p {
+    color: white;
+}
+
+.container .card:hover .content a{
+    color:black;
+    background-color: white;
+}
+  

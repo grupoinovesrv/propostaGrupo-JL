@@ -1,0 +1,199 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  position: relative;
+  width: 36px;
+  font-size: 24px;
+}
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  font-family: sans-serif;
+}
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  top: 3px;
+  line-height: 12px;
+}
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  top: -10px;
+}
+@media (min-width: 576px) {
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+
+.body{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+   }
+
+  .principal {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://i.imgur.com/wJZBPsR.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    animation-name: anima1;
+    animation-duration: 2.5s;
+    animation-delay: -0.5s;
+    animation-timing-function: ease-in-out;
+   }
+   .logoContainer {
+    width: 100%;
+    animation-name: anima3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   }
+   .logo {
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+    animation-name: anima2;
+    animation-duration: 8s;
+    animation-delay: -3s;
+   }
+   .logo:hover {
+    opacity: 0.75;
+   }
+   @keyframes anima1 {
+    0% {
+    width: 1vw;
+    height: 1vh;
+    }
+    25% {
+    width: 1vw;
+    height: 1vh;
+    }
+    95% {
+    width: 110vw;
+    height: 110vh;
+    }
+    100% {
+    width: 100vw;
+    height: 100vh;
+    }
+   }
+   @keyframes anima2 {
+    0% {
+    opacity: 0;
+    }
+    80% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+   }
+   @keyframes anima3 {
+    0% {
+    padding-top: 0vh;
+    }
+    50% {
+    padding-top: 1vh;
+    }
+    100% {
+    padding-top: 0vh;
+    }
+   }   
+   .cor{
+    background-color: black;
+}
+.fundo{
+    background-color: rgb(24, 24, 24);
+}
+.fonte{
+    font-size: 500%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tabela{
+   
+    margin: auto;
+}
+.fundo2{
+    background-color: beige;
+}
